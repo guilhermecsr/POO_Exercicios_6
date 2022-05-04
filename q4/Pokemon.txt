@@ -1,0 +1,32 @@
+Classe: SerHumano
+Atributos: nome, dataNasc.
+Metodos: capturaPokemon(), treinarPokemon().
+
+superClasse: Pokemons
+Atributos: hp, atk, def, spAtk, spDef, spd, exp.
+Metodos: evoluir()
+
+    Classe: Pokemon extends Pokemons
+    Atributos: nome, tamanho, tipo, aparencia.
+    Metodos: batalhar(), passear(), Comer(), Descansar
+
+
+superClasse: Habilidades
+Atributos: quantidadeDeUso, potencia, precisao.
+Metodos: UsarHabilidade(),
+
+    Classe: Ataque extends Habilidades
+    Atributos: DanoCausado
+    Metodos: 
+
+    Classe: Defesa extends Habilidades
+    Atributos: PorcentagemDeDefesa
+    Metodos: 
+
+    Classe: Buff extends Habilidades
+    Atributos: QuantidadeTurnos
+    Metodos: 
+
+    Classe: Debuff extends Habilidades
+    Atributos: QuantidadeTurnos
+    Metodos:
